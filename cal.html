@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+      <meta charset="UTF-8">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <title>Calculator</title>
+</head>
+<link rel="stylesheet" href="css/all.css">
+<link rel="stylesheet" href="css/all.min.css">
+<link rel="stylesheet" href="cal.css">
+<body>
+      <input type="text" id="display" maxlength="20" disabled>
+
+      <div class="special_btns">
+            
+      <button onclick="rm()"><i class="fas fa-delete-left"></i></button>
+      <br><br><br>
+
+      <button onclick="clearr()">CE</button>
+
+      <br><br><br>   
+      <button onclick="equal()" style="padding-left: 7vh; ">=</button>
+            <br><br><br>
+      
+      <button onclick="num00()"><i class="fas fa-0"></i><i class="fas fa-0"></i></button>
+
+      </div>
+
+
+      <div class="buttons">
+            <button onclick="num9()"><i class="fas fa-9"></i></button>
+            <button onclick="num8()"><i class="fas fa-8"></i></button>
+            <button onclick="num7()"><i class="fas fa-7"></i></button>
+            <br>
+            <button onclick="num6()"><i class="fas fa-6"></i></button>
+            <button onclick="num5()"><i class="fas fa-5"></i></button>
+            <button onclick="num4()"><i class="fas fa-4"></i></button>
+            <br>
+            <button onclick="num3()"><i class="fas fa-3"></i></button>
+            <button onclick="num2()"><i class="fas fa-2"></i></button>
+            <button onclick="num1()"><i class="fas fa-1"></i></button>
+            <br>
+            <button onclick="point()" style="padding-left: 4.5vh; text-align: center;"> . </button>
+            <button onclick="num0()"><i class="fas fa-0"></i></button>
+            <button onclick="plus_minus()">±</button>
+            <br>
+            <div class="ops">
+
+            <button onclick="divide()">÷</button>
+            <button onclick="product()">*</button>
+            <button onclick="plus()">+</button>
+            <button onclick="subt()">-</button>
+            </div>
+
+            <br>
+      </div>
+      <p style="color: whitesmoke;">
+            
+      &copy;pruduct of eyen corporation.
+      </p>
+
+      <p style="color: whitesmoke; left: 175vh;">
+            
+            &copy;developed by prince-the-great
+            </p>
+      <script src="cal.js"></script>
+      https://opentdb.com/api.php?amount=10
+</body>
+</html>
